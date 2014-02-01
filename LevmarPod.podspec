@@ -8,7 +8,7 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
                    DESC
 
   s.homepage     = "http://users.ics.forth.gr/~lourakis/levmar/"
-  s.license      = 'GPL'
+  s.license      = { :type => 'GPL', :file => 'LICENSE' }
   s.author       = { "Cameron Lowell Palmer" => "cameron.palmer@gmail.com" }
 
   # s.platform     = :ios
@@ -16,7 +16,8 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
 
   s.source = { :http => "http://users.ics.forth.gr/~lourakis/levmar/levmar-2.6.tgz" }
 
-  s.source_files  = 'Axb.{h,m}', 'lm.{h,m}', 'lmbc.{h,m}', 'lmblec.{h,m}', 'lmbleic.{h,m}', 'lmlec.{h,m}', 'misc.{h,m}'
+  s.source_files  = '**/*.{c,h}'
+  #s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
 
   s.public_header_files = 'levmar.h'
   s.framework  = 'Accelerate'
