@@ -16,8 +16,8 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
 
   s.source = { :http => "http://users.ics.forth.gr/~lourakis/levmar/levmar-2.6.tgz" }
 
-  s.source_files  = '**/*.{c,h}'
-  #s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
+  #s.source_files  = '**/*.{c,h}'
+  s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
 
   s.public_header_files = 'levmar.h'
   s.framework  = 'Accelerate'
