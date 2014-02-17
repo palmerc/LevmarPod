@@ -10,15 +10,18 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
   s.homepage     = "http://users.ics.forth.gr/~lourakis/levmar/"
   s.license      = { :type => 'GPL', :file => 'LICENSE' }
   s.author       = { "Cameron Lowell Palmer" => "cameron.palmer@gmail.com" }
+  s.social_media_url = 'https://twitter.com/palmerc'
 
   # s.platform     = :ios
   # s.platform     = :ios, '5.0'
 
-  s.source = { :http => "http://users.ics.forth.gr/~lourakis/levmar/levmar-2.6.tgz" }
+  s.source = { :git => 'https://github.com/AFNetworking/AFNetworking.git',
+               :tag => s.version.to_s }
 
-  #s.source_files  = '**/*.{c,h}'
-  s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
+  s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/"' }
 
   s.public_header_files = 'levmar.h'
+  s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
+
   s.framework  = 'Accelerate'
 end
