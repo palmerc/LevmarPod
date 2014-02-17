@@ -15,13 +15,14 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
   # s.platform     = :ios
   # s.platform     = :ios, '5.0'
 
-  s.source = { :git => 'https://github.com/AFNetworking/AFNetworking.git',
+  s.source = { :git => 'https://github.com/palmerc/LevmarPod.git',
                :tag => s.version.to_s }
 
   s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/"' }
 
   s.public_header_files = 'levmar.h'
-  s.source_files  = 'levmar.h', 'compiler.h', 'Axb.{h,c}', 'lm.{h,c}', 'lmbc.{h,c}', 'lmblec.{h,c}', 'lmbleic.{h,c}', 'lmlec.{h,c}', 'misc.{h,c}'
+  s.source_files = 'src/*.{h,c}'
+  s.header_dir = 'levmar/'
 
   s.framework  = 'Accelerate'
 end
