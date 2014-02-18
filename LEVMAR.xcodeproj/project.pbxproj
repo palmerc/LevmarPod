@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C78DB08818B2563C005E7C93 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78DB08718B2563C005E7C93 /* Accelerate.framework */; };
-		C78DB09F18B25AC5005E7C93 /* Axb.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB08B18B25AC5005E7C93 /* Axb.c */; };
-		C78DB0A118B25AC5005E7C93 /* expfit.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB08E18B25AC5005E7C93 /* expfit.c */; };
-		C78DB0A218B25AC5005E7C93 /* lm.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09018B25AC5005E7C93 /* lm.c */; };
-		C78DB0A418B25AC5005E7C93 /* lmbc.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09318B25AC5005E7C93 /* lmbc.c */; };
-		C78DB0A618B25AC5005E7C93 /* lmblec.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09518B25AC5005E7C93 /* lmblec.c */; };
-		C78DB0A818B25AC5005E7C93 /* lmbleic.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09718B25AC5005E7C93 /* lmbleic.c */; };
-		C78DB0AB18B25AC5005E7C93 /* lmlec.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09A18B25AC5005E7C93 /* lmlec.c */; };
-		C78DB0AD18B25AC5005E7C93 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB09C18B25AC5005E7C93 /* misc.c */; };
+		C78DB0C418B2A481005E7C93 /* Axb.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0B018B2A481005E7C93 /* Axb.c */; };
+		C78DB0CC18B2A481005E7C93 /* expfit.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0BA18B2A481005E7C93 /* expfit.c */; };
+		C78DB0CD18B2A481005E7C93 /* lm.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0BC18B2A481005E7C93 /* lm.c */; };
+		C78DB0CE18B2A481005E7C93 /* lmbc.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0BE18B2A481005E7C93 /* lmbc.c */; };
+		C78DB0CF18B2A481005E7C93 /* lmblec.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0BF18B2A481005E7C93 /* lmblec.c */; };
+		C78DB0D018B2A481005E7C93 /* lmbleic.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0C018B2A481005E7C93 /* lmbleic.c */; };
+		C78DB0D118B2A481005E7C93 /* lmlec.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0C118B2A481005E7C93 /* lmlec.c */; };
+		C78DB0D218B2A481005E7C93 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = C78DB0C218B2A481005E7C93 /* misc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C78DB08718B2563C005E7C93 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		C78DB08B18B25AC5005E7C93 /* Axb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Axb.c; sourceTree = "<group>"; };
-		C78DB08D18B25AC5005E7C93 /* compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
-		C78DB08E18B25AC5005E7C93 /* expfit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = expfit.c; sourceTree = "<group>"; };
-		C78DB08F18B25AC5005E7C93 /* levmar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levmar.h; sourceTree = "<group>"; };
-		C78DB09018B25AC5005E7C93 /* lm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lm.c; sourceTree = "<group>"; };
-		C78DB09118B25AC5005E7C93 /* lm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lm.h; sourceTree = "<group>"; };
-		C78DB09318B25AC5005E7C93 /* lmbc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmbc.c; sourceTree = "<group>"; };
-		C78DB09518B25AC5005E7C93 /* lmblec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmblec.c; sourceTree = "<group>"; };
-		C78DB09718B25AC5005E7C93 /* lmbleic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmbleic.c; sourceTree = "<group>"; };
-		C78DB09A18B25AC5005E7C93 /* lmlec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmlec.c; sourceTree = "<group>"; };
-		C78DB09C18B25AC5005E7C93 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
-		C78DB09D18B25AC5005E7C93 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		C78DB0B018B2A481005E7C93 /* Axb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Axb.c; sourceTree = "<group>"; };
+		C78DB0B118B2A481005E7C93 /* compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		C78DB0BA18B2A481005E7C93 /* expfit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = expfit.c; sourceTree = "<group>"; };
+		C78DB0BB18B2A481005E7C93 /* levmar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levmar.h; sourceTree = "<group>"; };
+		C78DB0BC18B2A481005E7C93 /* lm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lm.c; sourceTree = "<group>"; };
+		C78DB0BD18B2A481005E7C93 /* lm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lm.h; sourceTree = "<group>"; };
+		C78DB0BE18B2A481005E7C93 /* lmbc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmbc.c; sourceTree = "<group>"; };
+		C78DB0BF18B2A481005E7C93 /* lmblec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmblec.c; sourceTree = "<group>"; };
+		C78DB0C018B2A481005E7C93 /* lmbleic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmbleic.c; sourceTree = "<group>"; };
+		C78DB0C118B2A481005E7C93 /* lmlec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmlec.c; sourceTree = "<group>"; };
+		C78DB0C218B2A481005E7C93 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		C78DB0C318B2A481005E7C93 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
 		C7D9CA413C6640CAB6C6C3F9 /* liblevmar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblevmar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,40 +55,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F3C33957D0C475F86E50D29 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C78DB08A18B25AC5005E7C93 /* levmar */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
 		B6AED867CC0B4F4CA2D4853C = {
 			isa = PBXGroup;
 			children = (
-				6F3C33957D0C475F86E50D29 /* Sources */,
+				C78DB0AF18B2A481005E7C93 /* src */,
 				EE2F2D2E32894DFB97C85F99 /* Resources */,
 				2CB2CBDC72AD453C88202441 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C78DB08A18B25AC5005E7C93 /* levmar */ = {
+		C78DB0AF18B2A481005E7C93 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C78DB08B18B25AC5005E7C93 /* Axb.c */,
-				C78DB08D18B25AC5005E7C93 /* compiler.h */,
-				C78DB08E18B25AC5005E7C93 /* expfit.c */,
-				C78DB08F18B25AC5005E7C93 /* levmar.h */,
-				C78DB09018B25AC5005E7C93 /* lm.c */,
-				C78DB09118B25AC5005E7C93 /* lm.h */,
-				C78DB09318B25AC5005E7C93 /* lmbc.c */,
-				C78DB09518B25AC5005E7C93 /* lmblec.c */,
-				C78DB09718B25AC5005E7C93 /* lmbleic.c */,
-				C78DB09A18B25AC5005E7C93 /* lmlec.c */,
-				C78DB09C18B25AC5005E7C93 /* misc.c */,
-				C78DB09D18B25AC5005E7C93 /* misc.h */,
+				C78DB0B018B2A481005E7C93 /* Axb.c */,
+				C78DB0B118B2A481005E7C93 /* compiler.h */,
+				C78DB0BA18B2A481005E7C93 /* expfit.c */,
+				C78DB0BB18B2A481005E7C93 /* levmar.h */,
+				C78DB0BC18B2A481005E7C93 /* lm.c */,
+				C78DB0BD18B2A481005E7C93 /* lm.h */,
+				C78DB0BE18B2A481005E7C93 /* lmbc.c */,
+				C78DB0BF18B2A481005E7C93 /* lmblec.c */,
+				C78DB0C018B2A481005E7C93 /* lmbleic.c */,
+				C78DB0C118B2A481005E7C93 /* lmlec.c */,
+				C78DB0C218B2A481005E7C93 /* misc.c */,
+				C78DB0C318B2A481005E7C93 /* misc.h */,
 			);
-			path = levmar;
+			path = src;
 			sourceTree = "<group>";
 		};
 		EE2F2D2E32894DFB97C85F99 /* Resources */ = {
@@ -148,14 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78DB0AD18B25AC5005E7C93 /* misc.c in Sources */,
-				C78DB0A618B25AC5005E7C93 /* lmblec.c in Sources */,
-				C78DB0A118B25AC5005E7C93 /* expfit.c in Sources */,
-				C78DB0AB18B25AC5005E7C93 /* lmlec.c in Sources */,
-				C78DB0A218B25AC5005E7C93 /* lm.c in Sources */,
-				C78DB09F18B25AC5005E7C93 /* Axb.c in Sources */,
-				C78DB0A818B25AC5005E7C93 /* lmbleic.c in Sources */,
-				C78DB0A418B25AC5005E7C93 /* lmbc.c in Sources */,
+				C78DB0D218B2A481005E7C93 /* misc.c in Sources */,
+				C78DB0CC18B2A481005E7C93 /* expfit.c in Sources */,
+				C78DB0CD18B2A481005E7C93 /* lm.c in Sources */,
+				C78DB0D118B2A481005E7C93 /* lmlec.c in Sources */,
+				C78DB0CE18B2A481005E7C93 /* lmbc.c in Sources */,
+				C78DB0CF18B2A481005E7C93 /* lmblec.c in Sources */,
+				C78DB0D018B2A481005E7C93 /* lmbleic.c in Sources */,
+				C78DB0C418B2A481005E7C93 /* Axb.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +159,6 @@
 			buildSettings = {
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6/build";
 			};
 			name = RelWithDebInfo;
 		};
@@ -179,16 +170,13 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = levmar;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -201,16 +189,13 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = levmar;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -220,7 +205,6 @@
 			buildSettings = {
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6/build";
 			};
 			name = Release;
 		};
@@ -232,16 +216,13 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = levmar;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				USE_HEADERMAP = NO;
 			};
 			name = MinSizeRel;
@@ -254,16 +235,13 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = levmar;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6";
 				USE_HEADERMAP = NO;
 			};
 			name = RelWithDebInfo;
@@ -271,9 +249,9 @@
 		C5326F5F4CD34829A44F1D95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6/build";
 			};
 			name = Debug;
 		};
@@ -282,7 +260,6 @@
 			buildSettings = {
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SYMROOT = "/Users/palmerc/Development/LevmarPod/temp/levmar-2.6/build";
 			};
 			name = MinSizeRel;
 		};
